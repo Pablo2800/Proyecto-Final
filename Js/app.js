@@ -1,5 +1,5 @@
 async function fetchProductos() {
-  const resp = await fetch("./data.json");
+  const resp = await fetch("https://valknut-ventadecelulares.vercel.app/Js/data.json");
   return await resp.json();
 }
 
