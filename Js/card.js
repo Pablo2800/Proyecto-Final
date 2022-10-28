@@ -37,7 +37,8 @@ function cardProduct(array,card){
             <li>${producto.caracteristicas}</li>
             <li>Bateria: ${producto.bateria}</li>
             <li>Memoria de ${producto.memoria}</li>`,
-            background:`#c5c8e7`
+            background:`#c5c8e7`,
+            confirmButtonText:'Volver'
         })}else if(producto.producto=="auricular"){
           Swal.fire({
             imageUrl:`${producto.imagen}`,
@@ -47,6 +48,7 @@ function cardProduct(array,card){
             <li>${producto.data3}</li>
             <li>${producto.data4}</li>`,
             background:`#c5c8e7`,
+            confirmButtonText:'Volver'
         })
         }else if(producto.producto=="tablet"){
           Swal.fire({
@@ -57,6 +59,7 @@ function cardProduct(array,card){
             <li>${producto.data3}</li>
             <li>${producto.data4}</li>`,
             background:`#c5c8e7`,
+            confirmButtonText:'Volver'
         })
         }
     })

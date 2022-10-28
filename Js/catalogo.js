@@ -53,7 +53,8 @@ elemento.addEventListener("click",()=>{
     `<p>Para mas informacion</p>`+
     `<button class="btnAgregar"><a href="./Auriculares.html"}">Ir a catalogo ${catalogo[posicion].producto}</button>`,
     imageHeight:250,
-    background:`#c5c8e7`
+    background:`#c5c8e7`, 
+    confirmButtonText:'Volver'
   })
   });
 })
@@ -71,7 +72,8 @@ function ofertaTab(elemento,posicion){
       `<p>Para mas informacion</p>`+
       `<button class="btnAgregar"><a href="./Tablets.html"}">Ir a catalogo ${catalogo[posicion].producto}</button>`,
       imageHeight:250,
-      background:`#c5c8e7`
+      background:`#c5c8e7`,
+      confirmButtonText:'Volver'
     })
     });
   })
@@ -89,7 +91,8 @@ elemento.addEventListener("click",()=>{
      `<p>${catalogo[posicion].camara}</p>`+
     `<p>Para mas informacion</p>`+
     `<button class="btnAgregar"><a href="./${catalogo[posicion].marca}.html">Ir a catalogo ${catalogo[posicion].marca}</button>`,
-    imageHeight:250
+    imageHeight:250,
+    confirmButtonText:'Volver'
   })
 });
 })
